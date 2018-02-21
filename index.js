@@ -1,3 +1,4 @@
+// posts
 function createPost() {
   event.preventDefault();
   var bodyText = "";
@@ -37,8 +38,9 @@ function postNewPost(body, author) {
 
 
 
-
+// comments
 function addComment() {
+  event.preventDefault();
   var bodyText = "";
   var commenter = "";
 
