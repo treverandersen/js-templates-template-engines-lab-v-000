@@ -31,5 +31,5 @@ function postNewPost(body, author) {
   var newPostDiv = document.createElement("div");
   newPostDiv.appendChild(body);
   newPostDiv.appendChild(author);
-  postsDiv.appendChild(newPostDiv);
+  postDiv.appendChild(newPostDiv);
 }
