@@ -1,4 +1,5 @@
 function createPost() {
+  event.preventDefault();
   var bodyText = "";
   var author = "";
 
